@@ -13,24 +13,24 @@ An intelligent, edge-based vision-and-voice agentic system designed for vulnerab
 ```text
 chronos/
 ├── .gitignore
-├── requirements.txt                         # Low-level sounddevice & OpenCV 5 dependencies
-├── perception.py                        # YuNet tracking & Optical Flow heuristics engine
-├── robot_ui.py                          # GUI human-agent interaction loop matrix
-├── chronos_companion.py                 # Main Agentic State Machine loop controller
-├── download_models.py                   # On-device runtime weights verification fetch script
-├── agent_trace.jsonl                    # Local database stream analyzed later via S3 Select
-├── incidents_local.jsonl                # Temporary local anomaly storage arrays
-├── aws.py                               # Low-level AWS SDK credentials setup
-├── cloud.py                             # S3 Select query triggers, SES routes & CloudWatch
-└── testmail.py                          # Independent SMTP alert test suite routine
+├── requirements.txt                 # Low-level sounddevice & OpenCV 5 dependencies
+├── perception.py                    # YuNet tracking & Optical Flow heuristics engine
+├── robot_ui.py                      # GUI human-agent interaction loop matrix
+├── chronos_companion.py             # Main Agentic State Machine loop controller
+├── download_models.py               # On-device runtime weights verification fetch script
+├── agent_trace.jsonl                # Local database stream analyzed later via S3 Select
+├── incidents_local.jsonl            # Temporary local anomaly storage arrays
+├── aws.py                           # Low-level AWS SDK credentials setup
+├── cloud.py                         # S3 Select query triggers, SES routes & CloudWatch
+└── testmail.py                      # Independent SMTP alert test suite routine
 ```
 
 ## 🛠️ Installation & Setup
 
 1. **Clone the Repository:**
    ```bash
-   git clone <your-github-repo-link>
-   cd chronos
+   git clone https://github.com
+   cd Chronos-AI-Companion
    ```
 
 2. **Download Face Tracking Models:**
